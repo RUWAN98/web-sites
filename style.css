@@ -91,9 +91,20 @@ nav{
     padding: 2rem 1rem;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     transition:0.7s;
+}
+.nav_side{
+    /* justify-content: space-between;
+    display: flex;
+    float: left; */
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav_logo{
@@ -105,6 +116,11 @@ nav{
     display: flex;
     align-items: center;
     gap: 3rem;
+
+    list-style-type: none;
+            margin-right: 2rem;
+            padding: 0;
+            display: flex;
 }
 
 .link a {
@@ -576,6 +592,7 @@ color: var(--white);
 }
 
 @media(width <900px){
+    
     .nav_links{
         display: none;
     }
