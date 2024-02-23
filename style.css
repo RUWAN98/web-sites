@@ -86,9 +86,10 @@ background-color: var(--primary-color);
 
 nav{
     background:rgba(60, 66, 63, 0.9);
-    height: 80px;
+    height: 60px;
     width: 100%;
     z-index: 1000;
+    align-items: center;
     position: fixed;
   }
 
@@ -105,7 +106,7 @@ nav{
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold; */
-    margin-top: 1.2rem;
+    margin-top: 0.7rem;
     margin-left: 20px;
   }
   nav ul{
@@ -113,10 +114,10 @@ nav{
     margin-right: 20px;
     /* top: 10px;
     right: 10px; */
-    /* display: flex;
-    align-items: center; */
+    /* display: flex; */
+   align-items: center;
     /* justify-content: space-between; */
-    margin-top: 1.6rem;
+    margin-top: 1.2rem; 
 
   }
   nav ul li{
@@ -576,6 +577,22 @@ nav{
     color: var(--text-light);
 }
 
+.price_btn{
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.price_btn:hover{
+    background-color: var(--secondary-color-dark);
+}
+
 .price_grid{
     margin-top:2rem;
     display: grid;
@@ -866,3 +883,9 @@ nav{
         text-align:center;
     }
 }
+
+
+
+/* Add your existing CSS styles here */
+
+
